@@ -1,0 +1,7 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "title": "Office Chairs Purchase",
+  "description": "Requesting 10 ergonomic office chairs for the HR department.",
+  "amount": 2500,
+  "proforma": "https://gnkiycezfddbmigtdjrz.supabase.co/storage/v1/object/public/purchase_orders/sample_proforma.pdf"
+}
