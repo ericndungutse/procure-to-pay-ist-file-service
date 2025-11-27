@@ -18,8 +18,8 @@ This service is part of a procure-to-pay workflow that automates purchase order 
 
 ```
 ┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│  API Gateway /  │────▶│  Lambda Handler  │────▶│  Supabase       │
-│  Direct Invoke  │     │                  │◀────│  Storage        │
+│   Django REST   │────▶│  Lambda Handler  │────▶│  Supabase       │
+│   Framework API │     │                  │◀────│  Storage        │
 └─────────────────┘     └────────┬─────────┘     └─────────────────┘
                                  │
                     ┌────────────┼────────────┐
@@ -125,7 +125,7 @@ This simulates a Lambda invocation using the sample data in `purchase_request_js
 
 The Lambda function accepts purchase request data in the following formats:
 
-#### Via API Gateway (HTTP Request)
+#### Via Django REST Framework API (HTTP Request)
 
 ```json
 {
